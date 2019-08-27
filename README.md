@@ -13,7 +13,7 @@ Every kind of helpful feedback will be greatly appreciated.
 ## *.c files
 ### [main.c](main.c)
 - Actual implementation of turtle graphics.
-### [bfci.c](libturtlef.c)
+### [libturtlef.c](libturtlef.c)
 - Main engine functions taking care of execution.
 
 ## *.h files
