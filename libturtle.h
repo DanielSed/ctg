@@ -14,9 +14,9 @@
 
 /* turtle's flags */
 enum _turtleStateT {
-    STATE_PENDOWN   = 1 <<  1, /*  */
-    STATE_PENERASER = 1 <<  2, /* ERASER - if true, erase. Don't draw */
-    STATE_ENDOFINS  = 1 <<  3, /* END OF INStructions - if true, no more instructions beyond */
+    STATE_PENDOWN   = 1 <<  0, /*  */
+    STATE_PENERASER = 1 <<  1, /* ERASER - if true, erase. Don't draw */
+    STATE_ENDOFINS  = 1 <<  2, /* END OF INStructions - if true, no more instructions beyond */
 };
 typedef enum _turtleStateT turtleStateT;
 
